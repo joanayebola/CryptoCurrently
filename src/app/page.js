@@ -1,5 +1,3 @@
-// page.js
-
 import React from "react";
 import CrptoList from "../Components/CryptoList";
 const page = () => {

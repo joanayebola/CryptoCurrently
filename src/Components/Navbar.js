@@ -1,31 +1,13 @@
-// Navbar.js
-
 import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav
-      className="navbar navbar-expand-lg 
-                         navbar-dark bg-dark"
-    >
-      <div className="container">
-        <Link className="navbar-brand" href="/">
-          CryptoTracker
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top mb-5">
+      <div className="container-fluid">
+        {/* Brand Logo */}
+        <Link className="navbar-brand d-flex align-items-center" href="/">
+          <span className="fw-bold">CryptoCurrently</span>
         </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto"></ul>
-        </div>
       </div>
     </nav>
   );
