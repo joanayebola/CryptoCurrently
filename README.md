@@ -20,8 +20,6 @@ CryptoCurrently is a Next.js-based web application that allows users to track cr
 
 You can check out the live demo of the project [here](https://crypto-currently.vercel.app).
 
----
-
 ## Getting Started
 
 Follow these steps to set up the project locally on your machine.
@@ -55,8 +53,6 @@ Follow these steps to set up the project locally on your machine.
 4. **Open the app**:
    Open your browser and navigate to `http://localhost:3000`.
 
----
-
 ## Usage
 
 1. **Home Page**:
@@ -73,8 +69,6 @@ Follow these steps to set up the project locally on your machine.
      - Total and circulating supply
    - Visit the official website of the cryptocurrency.
 
---
-
 ## API Used
 
 This project uses the [CoinGecko API](https://www.coingecko.com/en/api) to fetch real-time cryptocurrency data. The following endpoints are used:
@@ -90,8 +84,6 @@ This project uses the [CoinGecko API](https://www.coingecko.com/en/api) to fetch
   GET /coins/{id}
   ```
 
----
-
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
@@ -102,8 +94,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push to the branch (`git push origin feature/YourFeatureName`).
 5. Open a pull request.
 
----
-
 ## License
 
 ## This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
@@ -113,8 +103,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 - [CoinGecko](https://www.coingecko.com/) for providing the free API.
 - [Next.js](https://nextjs.org/) and [React](https://reactjs.org/) for the frontend framework.
 - [Bootstrap](https://getbootstrap.com/) for the styling.
-
----
 
 ## Contact
 
