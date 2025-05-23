@@ -94,10 +94,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push to the branch (`git push origin feature/YourFeatureName`).
 5. Open a pull request.
 
-## License
-
-## This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - [CoinGecko](https://www.coingecko.com/) for providing the free API.
