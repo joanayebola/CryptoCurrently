@@ -1,9 +1,3 @@
-Here’s a `README.md` file tailored to your project structure. It provides an overview of the project, setup instructions, and details about the project structure.
-
----
-
-# CryptoTracker
-
 CryptoCurrently is a Next.js-based web application that allows users to track cryptocurrency prices and market data in real-time. Users can search for cryptocurrencies, view detailed information, and switch between different currencies (USD, EUR, NGN) for price conversion.
 
 ## Features
