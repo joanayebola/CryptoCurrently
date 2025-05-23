@@ -18,7 +18,7 @@ CryptoCurrently is a Next.js-based web application that allows users to track cr
 
 ## Live Demo
 
-You can check out the live demo of the project [here](#) (www.crypto-currently.vercel.app).
+You can check out the live demo of the project [here](https://crypto-currently.vercel.app).
 
 ---
 
@@ -37,7 +37,7 @@ Follow these steps to set up the project locally on your machine.
 
    ```bash
    git clone https://github.com/joanayebola/cryptocurrently.git
-   cd cryptotracker
+   cd cryptocurrently
    ```
 
 2. **Install dependencies**:
@@ -54,34 +54,6 @@ Follow these steps to set up the project locally on your machine.
 
 4. **Open the app**:
    Open your browser and navigate to `http://localhost:3000`.
-
----
-
-## Project Structure
-
-```
-cryptotracker/
-├── public/                  # Static assets (images, etc.)
-│   └── favicon.ico          # Favicon for the website
-├── src/
-│   ├── app/                 # Next.js app directory
-│   │   ├── globals.css      # Global styles
-│   │   ├── layout.js        # Layout component
-│   │   ├── page.js          # Home page component
-│   │   └── page.module.css  # CSS module for the home page
-│   ├── Components/          # Reusable components
-│   │   ├── CryptoList.js    # Component for displaying the list of cryptocurrencies
-│   │   └── Navbar.js        # Navigation bar component
-│   ├── pages/               # Next.js pages
-│   │   └── crypto/          # Dynamic route for crypto details
-│   │       └── [id].js      # Page for individual cryptocurrency details
-├── .gitignore               # Files and directories to ignore in Git
-├── jsconfig.json            # JavaScript configuration
-├── next.config.mjs          # Next.js configuration
-├── package-lock.json        # Lock file for dependencies
-├── package.json             # Project dependencies and scripts
-└── README.md                # Project documentation
-```
 
 ---
 
